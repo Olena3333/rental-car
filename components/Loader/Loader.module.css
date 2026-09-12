@@ -1,0 +1,55 @@
+.spinnerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: min(543px, calc(100vw - 32px));
+    background: var(--white);
+}
+
+@media (min-width: 768px) {
+    .spinnerCard {
+        padding: 48px 96px;
+        height: 288px;
+        justify-content: center;
+    }
+}
+
+.loadingText {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--main);
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.loadingDescription {
+    width: 100%;
+    max-width: 260px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: var(--main);
+}
+
+.loader {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    border: 6px solid #dee2e6;
+    border-top-color: var(--light-blue);
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
