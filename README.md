@@ -2,8 +2,6 @@
 
 A modern frontend web application for a car rental service. Users can explore available vehicles, search and filter the catalog, view detailed information about each car, and submit a rental request.
 
-**Live demo:** [RentalCar](https://rental-car-two-iota.vercel.app/)
-
 ## ✨ Features
 
 - **Home page** — introduces the rental service and provides quick access to the car catalog.
@@ -13,6 +11,8 @@ A modern frontend web application for a car rental service. Users can explore av
 - **Notifications** — displays success and error messages after form submission.
 - **Loading and error states** — provides feedback while data is loading and handles unavailable or missing content.
 - **Responsive design** — the interface is adapted for mobile, tablet, and desktop screens.
+
+**Live demo:** [RentalCar](https://rental-car-two-iota.vercel.app/)
 
 ## 🛠️ Tech Stack
 
