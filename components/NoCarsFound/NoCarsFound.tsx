@@ -10,6 +10,7 @@ export default function NoCarsFound({ resetFilters }: NoCarsFoundProps) {
   return (
     <div className={css.wrapper}>
       <Image
+        className={css.image}
         src="/images/no-cars-found.png"
         alt="No cars found"
         width={414}
